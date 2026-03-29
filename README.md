@@ -94,3 +94,4 @@ The desktop app lets you:
   - local CLI processing
   - grayscale output
   - YouTube helper validation
+  
