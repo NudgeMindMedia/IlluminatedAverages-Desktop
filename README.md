@@ -46,13 +46,13 @@ Use the local virtual environment:
 ### Local Video File
 
 ```powershell
-& "c:\Users\User\Desktop\PythonEnvironment_Test\.venv\Scripts\python.exe" "c:\Users\User\Desktop\PythonEnvironment_Test\IlluminatedAverages_Repo\illuminated_average.py" "C:\path\to\video.mp4" "C:\path\to\output.png"
+& "c:\Users\User\Desktop\PythonEnvironment_Test\.venv\Scripts\python.exe" "c:\Users\User\Desktop\PythonEnvironment_Test\IlluminatedAverages-Desktop\illuminated_average.py" "C:\path\to\video.mp4" "C:\path\to\output.png"
 ```
 
 ### YouTube URL
 
 ```powershell
-& "c:\Users\User\Desktop\PythonEnvironment_Test\.venv\Scripts\python.exe" "c:\Users\User\Desktop\PythonEnvironment_Test\IlluminatedAverages_Repo\illuminated_average.py" --youtube-url "https://www.youtube.com/watch?v=VIDEO_ID" --output-dir "C:\path\to\output_folder"
+& "c:\Users\User\Desktop\PythonEnvironment_Test\.venv\Scripts\python.exe" "c:\Users\User\Desktop\PythonEnvironment_Test\IlluminatedAverages-Desktop\illuminated_average.py" --youtube-url "https://www.youtube.com/watch?v=VIDEO_ID" --output-dir "C:\path\to\output_folder"
 ```
 
 When using `--youtube-url`, the video is downloaded into `downloads/` and then processed like a local file.
@@ -69,7 +69,7 @@ When using `--youtube-url`, the video is downloaded into `downloads/` and then p
 Example:
 
 ```powershell
-& "c:\Users\User\Desktop\PythonEnvironment_Test\.venv\Scripts\python.exe" "c:\Users\User\Desktop\PythonEnvironment_Test\IlluminatedAverages_Repo\illuminated_average.py" --youtube-url "https://www.youtube.com/watch?v=VIDEO_ID" --output-dir "C:\Users\User\Desktop\FinishedImages" --fps 1 --scale-width 640 --autocontrast
+& "c:\Users\User\Desktop\PythonEnvironment_Test\.venv\Scripts\python.exe" "c:\Users\User\Desktop\PythonEnvironment_Test\IlluminatedAverages-Desktop\illuminated_average.py" --youtube-url "https://www.youtube.com/watch?v=VIDEO_ID" --output-dir "C:\Users\User\Desktop\FinishedImages" --fps 1 --scale-width 640 --autocontrast
 ```
 
 ## Desktop App
@@ -77,7 +77,7 @@ Example:
 Launch the Tkinter UI with:
 
 ```powershell
-& "c:\Users\User\Desktop\PythonEnvironment_Test\.venv\Scripts\python.exe" "c:\Users\User\Desktop\PythonEnvironment_Test\IlluminatedAverages_Repo\illuminated_average_tk.py"
+& "c:\Users\User\Desktop\PythonEnvironment_Test\.venv\Scripts\python.exe" "c:\Users\User\Desktop\PythonEnvironment_Test\IlluminatedAverages-Desktop\illuminated_average_tk.py"
 ```
 
 The desktop app lets you:
