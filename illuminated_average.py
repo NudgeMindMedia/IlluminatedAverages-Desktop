@@ -1,5 +1,5 @@
 import argparse
-# Illuminated Averages v1.2
+# Illuminated Averages v1.03
 import shutil
 import subprocess
 import sys
